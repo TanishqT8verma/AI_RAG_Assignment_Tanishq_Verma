@@ -10,3 +10,15 @@ It follows a Retrieval-Augmented Generation (RAG) approach — meaning it finds 
  -When a question is asked, the most relevant chunks are retrieved.
  -A DistilBERT model extracts the best possible answer.
  -Results are shown in a clean Streamlit interface with confidence scores.
+Key Libraries
+
+## streamlit – Web interface
+sentence-transformers – Text embeddings,
+faiss-cpu – Vector search,
+transformers – QA model (DistilBERT),
+PyPDF2, python-docx, pandas – File handling.
+## Example
+Input: “What is my name?”
+Output:
+• tanishq verma  
+📊 Confidence: 0.92
