@@ -23,3 +23,8 @@ Input: “What is my name?”
 Output:
 • tanishq verma  
 📊 Confidence: 0.92
+
+# Outscope handling
+If a question is not related to the uploaded files, the app responds:
+
+“I don’t have enough information in the uploaded documents.”
